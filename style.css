@@ -1,14 +1,17 @@
 body{font-family: 'Hammersmith One', sans-serif;
-    font-family: 'Poppins', sans-serif;}
+    font-family: 'Poppins', sans-serif;
+    margin:0;}
+     
 .flex-container{display:flex;
-        margin-bottom:100px;}
+                margin:100px;}
 h1{font-size: 50px;
    margin-bottom:0;}
 h2{margin-top:0;}
 .word-color{color:gold;}
-.half-width{width: 50%;
-            padding-left:2%;}
-.half-width img{width:100%;}
+.half-width{width: 50%;}
+            
+.half-width img{width:70%;
+            }
 .link-button{text-decoration:none;
             background-image: linear-gradient(rgb(228, 25, 10), rgba(241, 28, 13, 0.863));
             padding:10px 20px;
@@ -16,7 +19,37 @@ h2{margin-top:0;}
             border-radius:5px;}
 .link-button:hover{background-image:linear-gradient(mediumspringgreen,mediumseagreen);}
 #english-speaker{background-color:lightskyblue;
-                 border-radius: 10px;}
-#web-developer{background-color:lightyellow;
-               border-radius: 10px;}
+                 border-radius: 10px;
+                 padding:10px;}
+                 
+#web-developer{background-color:rgb(156, 235, 149);
+               border-radius: 10px;
+               margin-left:10px;
+               padding:10px;}
+#freelancer{background: rgba(243, 11, 11, 0.61);
+            border-radius: 10px;
+            margin-left:10px;
+            padding:10px;}
+#goal{text-align:center;
+      margin-bottom:30px;}
+.back-image {background-image: url(images/shapes/shape-2.png);
+            background-repeat: no-repeat;
+            background-size: 250px;
+            background-position: left;
+            }
+.back-image-learning{background-image: url(images/shapes/shape-5.png);
+            background-repeat: no-repeat;
+            background-size: 400px;
+            background-position: right;
+            
+            }
+
+#margin-learning{margin-top:50px;}
+#margin-motivation{margin-top:100px;}
+footer{color:white;
+       background-color:black;
+       text-align:center;
+       padding:10px;}
+
+
 
